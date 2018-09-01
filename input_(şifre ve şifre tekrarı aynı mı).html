@@ -1,0 +1,16 @@
+<input type="text" id="pass" maxlength="10"><br><br>
+<input type="text" id="passagain" maxlength="10"> 
+<span id="result"></span>
+
+<script language="javascript" type="text/javascript">
+document.getElementById('passagain').onblur =
+  function(e) {
+    var m = document.getElementById('pass').value;
+    var n = document.getElementById('passagain').value;
+    if (m = n)
+      document.getElementById('result').innerHTML = "eşit";
+    else
+      document.getElementById('result').innerHTML = "eşit değil";
+  };
+
+</script>
