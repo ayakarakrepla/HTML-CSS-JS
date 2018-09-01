@@ -1,0 +1,14 @@
+Arama Kutusu: <input type="text" id="search" value="Arama.." onfocus="onFocus()" onblur="onBlur()">
+
+<script language="javascript" type="text/javascript">
+	function onFocus() {
+		if (document.getElementById("search").value == "Arama..") {
+		  document.getElementById("search").value = "";
+		}
+	}
+	function onBlur() {
+		if (document.getElementById("search").value == "") {
+		  document.getElementById("search").value = "Arama..";
+		}
+	}
+</script>
