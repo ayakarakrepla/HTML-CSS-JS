@@ -1,2 +1,2 @@
-# JS
-My all JS implementations
+# HTML-CSS-JS
+My all HTML-CSS-JS implementations
