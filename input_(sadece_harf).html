@@ -1,0 +1,21 @@
+<input type="text" id="letter" maxlength="30"> : Sadece Harf
+
+<script language="javascript" type="text/javascript">
+document.getElementById('letter').onkeypress =
+  function(e) {
+    var c = e.which || e.keyCode;
+    if (
+    	(c >= 65 && c <= 90) || 
+      (c >= 97 && c <= 122) || 
+      (c == 199) || (c == 214) || 
+      (c == 220) || (c == 231) || 
+      (c == 246) || (c == 252) || 
+      (c == 286) || (c == 287) || 
+      (c == 304) || (c == 305) || 
+      (c == 350) || (c == 351) || 
+      (c == 32))
+      return true;
+    else
+      return false;
+  };
+</script>
