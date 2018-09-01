@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <style>
+      ul li {
+        display: inline;
+        padding: 5px;
+      }
+
+      a {
+        text-decoration: none;
+        padding: 5px;
+      }
+
+      a:hover {
+        background-color: lightblue;
+        color: #FFF;
+      }
+    </style>
+  </head>
+  <body>
+
+    <ul class="menu">
+      <li><a href="#"><i class="fa fa-home"></i> Ana Sayfa</a></li>
+      <li><a href="#"><i class="fa fa-poll-h"></i> Hakkımızda</a></li>
+      <li><a href="#"><i class="fa fa-project-diagram"></i> Ürünlerimiz</a></li>
+      <li><a href="#"><i class="fa fa-briefcase"></i> İnsan Kaynakları</a></li>
+      <li><a href="#"><i class="fa fa-phone"></i> İletişim</a></li>
+    </ul>
+
+  </body>
+</html>
